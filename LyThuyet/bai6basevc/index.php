@@ -1,0 +1,9 @@
+<?php
+require_once "vendor/autoload.php";
+require_once "env.php";
+require_once "common/route.php";
+// use App\Controllers\CategoryController;
+// use App\models\Category;
+// $controllers = new CategoryController();
+// $models = new Category();
+

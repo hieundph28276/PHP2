@@ -1,0 +1,15 @@
+{
+    "name": "bl/lab_autoload",
+    "autoload": {
+        "psr-4": {
+            "Bl\\LabAutoload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ndhieu17072002",
+            "email": "lupbegoup@gmail.com"
+        }
+    ],
+    "require": {}
+}

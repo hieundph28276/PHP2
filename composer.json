@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phroute/phroute": "^2.2",
+        "illuminate/events": "^9.51"
+    }
+}

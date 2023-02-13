@@ -1,0 +1,14 @@
+<?php
+namespace App\Controllers;
+use eftec\bladeone\BladeOne;
+class BaseController{
+
+    protected function render($viewFile, $data = []){
+        $viewDir = "./app/views";//trỏ đến thư mục views để lấy file
+        $storageDir = "./storage";//dùng để luu trữ cache thư mục này sẽ tạo
+        $blade = new BladeOne($viewDir,$storageDir, BladeOne::MODE_DEBUG);
+        echo $blade->run($viewFile, $data);
+    }
+}
+
+?>
